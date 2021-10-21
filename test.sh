@@ -1,4 +1,4 @@
 #!/bin/bash
-ls -al
-yum install -y expat-devel gcc gcc-c++
-mkdir /web
+
+sudo yum install -y expat-devel gcc gcc-c++
+sudo mkdir /web
