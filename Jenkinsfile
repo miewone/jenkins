@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh '''#!/bin/bash
-
-sh test.sh'''
+        git(url: 'https://github.com/MiewONE/jenkins.git', branch: 'main', credentialsId: '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')
       }
     }
 
