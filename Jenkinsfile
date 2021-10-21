@@ -1,11 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh '''#!/bin/bash
 
-ls'''
+sh test.sh'''
       }
     }
 
