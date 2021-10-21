@@ -1,4 +1,5 @@
 pipeline {
+<<<<<<< HEAD
   agent any
   stages {
     stage('error') {
@@ -11,4 +12,10 @@ pipeline {
   environment {
     http = 'test1'
   }
+=======
+      agent any
+      stages {
+
+      }
+>>>>>>> 7c5e2b7 (ls)
 }
